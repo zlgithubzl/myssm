@@ -6,8 +6,12 @@
 
     <groupId>org.example</groupId>
     <artifactId>myssm</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
+    <modules>
+        <module>module1</module>
+        <module>module1</module>
+    </modules>
 
 
     <dependencies>
@@ -18,7 +22,35 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.2.9.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
     </dependencies>
+
+
+<!--    <build>-->
+<!--        <resources>-->
+<!--            <resource>-->
+<!--                <directory>src/main/java</directory>-->
+<!--                <includes>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                </includes>-->
+<!--                <filtering>false</filtering>-->
+<!--            </resource>-->
+
+
+<!--            <resource>-->
+<!--                <directory>src/main/resources</directory>-->
+<!--                <includes>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                </includes>-->
+<!--                <filtering>false</filtering>-->
+<!--            </resource>-->
+
+<!--        </resources>-->
+<!--    </build>-->
 
 
 
