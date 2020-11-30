@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PublicController {
 
-    @RequestMapping(value = "/public",produces = "application/html; charset=utf-8")
+    @RequestMapping(value = "/aaa",produces = "application/json; charset=utf-8")
     public String aa(){
         System.out.println(111);
         //return "bbb";
-        return "ccc公共模块";
+        return "edf公共模块";
     }
 }
